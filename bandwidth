@@ -10,7 +10,7 @@
 dir=$(dirname $0)
 source $dir/util.sh
 
-type=$BLOCK_INSTANCE
+type=$1
 
 
 file=/tmp/i3blocks_bandwidth_$type
